@@ -1,0 +1,29 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"こんにちは鹿児島",
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"HelloKagoshimaIntent",
+                    "samples":[
+                        "こんにちは鹿児島",
+                        "こんにちは鹿児島 と言って",
+                        "鹿児島 と言って"
+                    ]
+                }
+            ]
+        }
+    }
+}

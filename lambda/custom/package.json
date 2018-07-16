@@ -1,0 +1,13 @@
+{
+  "name": "hello-kagoshima",
+  "version": "1.0.0",
+  "description": "Hello Kagoshima!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
+  }
+}
