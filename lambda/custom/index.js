@@ -24,7 +24,7 @@ const HelloKagoshimaIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'HelloKagoshimaIntent';
   },
   handle(handlerInput) {
-    const speechText = 'Hello World!';
+    const speechText = 'こんにちは鹿児島!!';
 
     return handlerInput.responseBuilder
       .speak(speechText)
